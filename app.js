@@ -10,7 +10,7 @@ function add(){
     result.innerText = Number(firstNumber.value) + Number(secondNumber.value) + Number(thirdNumber.value);
     console.log('button.onclick')
 }
-function multi(){
+function multiply(){
     result.innerText = Number(firstNumber.value) * Number(secondNumber.value) * Number(thirdNumber.value);
 }
 
@@ -18,7 +18,7 @@ function divide(){
     result.innerText = Number(firstNumber.value) / Number(secondNumber.value) / Number(thirdNumber.value);
 }
 
-function minus(){
+function subtract(){
     result.innerText = Number(firstNumber.value) - Number(secondNumber.value) - Number(thirdNumber.value);
 }
 console.log('button.onclick')
